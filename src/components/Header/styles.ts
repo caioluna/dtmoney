@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.header`
   background: var(--blue);
   height: 13.25rem;
-  padding-top: 2rem;
+  padding: 2rem 2rem 0;
 `
 
 export const Content = styled.div`
@@ -30,5 +30,4 @@ export const Content = styled.div`
       filter: brightness(0.9);
     }
   }
-
 `
