@@ -12,7 +12,7 @@ export function Summary() {
       <div>
         <header>
           <p>Income</p>
-          <img src={incomeImg} alt="income image" />
+          <img src={incomeImg} alt="income" />
         </header>
         <strong>R$ 17.400<span>,00</span></strong>
       </div>
@@ -20,7 +20,7 @@ export function Summary() {
       <div>
         <header>
           <p>Expense</p>
-          <img src={expenseImg} alt="expense image" />
+          <img src={expenseImg} alt="expense" />
         </header>
         <strong>-R$ 1.259<span>,00</span></strong>
       </div>
@@ -28,7 +28,7 @@ export function Summary() {
       <div className="total-background" >
         <header>
           <p>Total</p>
-          <img src={totalImg} alt="total image" />
+          <img src={totalImg} alt="total" />
         </header>
         <strong>R$ 16.141<span>,00</span></strong>
       </div>
