@@ -4,6 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #F0F2F5;
     --shape: #FFFFFF;
+    --input-bg: #E7E9EE;
 
     --red: #E52E4D;
     --green: #33CC95;
@@ -55,4 +56,45 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
+
+  .react-modal-overlay {
+    position: fixed;
+
+    background-color: rgba(0,0,0,0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .react-modal-content{
+    position: relative;
+
+    width: 100%;
+    max-width: 576px;
+
+    border-radius: .3125rem;
+    background-color: var(--background);
+
+    padding: 3rem;
+  }
+
+  .react-modal-close {
+    position: absolute;
+    right: 1.3rem;
+    top: 1.3rem;
+
+    background-color: transparent;
+    transition: filter .2s;
+    
+    &:hover {
+      filter: brightness(.7);
+    }
+  }
+
 `

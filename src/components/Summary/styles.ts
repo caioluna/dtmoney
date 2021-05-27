@@ -20,6 +20,7 @@ export const Content = styled.section`
       display: flex;
       justify-content: space-between;
       align-items: center;
+      color: var(--text-title);
     }
 
     img {
@@ -33,6 +34,8 @@ export const Content = styled.section`
       font-size: 2.25rem;
       font-weight: 500;
       line-height: 3.375rem;
+
+      color: var(--text-title);
     }
 
     span {
@@ -41,7 +44,11 @@ export const Content = styled.section`
 
     &.total-background {
       background-color: var(--green);
-      color: #FFF;
+      color: #FFFFFF;
+
+      & p, strong {
+        color: #FFFFFF;
+      }
     }
   }
 `
